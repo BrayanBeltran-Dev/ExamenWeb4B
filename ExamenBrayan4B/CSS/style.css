@@ -1,0 +1,39 @@
+.h1{
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+    text-align: center;
+}
+img{
+    width: 380px;
+    height: 300px;
+    border-radius: 20px;
+}
+.nombre{
+    background-color: aquamarine;
+    text-align: center;
+}
+.correo{
+    background-color: aquamarine;
+    text-align: center;
+}
+.edad{
+    background-color: aquamarine;
+    text-align: center;
+}
+.pais{
+    background-color: aquamarine;
+    text-align: center;
+}
+button{
+    background-color: rgb(26, 104, 194);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+button:hover{
+    background-color: aquamarine;
+}

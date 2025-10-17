@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Web</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <header class="head">
+        <nav>
+        <h1 class="h1">Formulario</h1>
+        </nav>
+        <img src="/IMG/image.png" alt="Funated">
+    </header>
+    <main>
+        <section>
+            <form class="formulario">
+                <h2>Registro de datos</h2>
+                <br><br>
+                <label id="nombre">Nombre:</label>
+                <input type="text" class="nombre" required>
+                <br><br>
+                <label id="correo">Correo electronico:</label>
+                <input type="email" class="correo" required>
+                <br><br>
+                <label id="edad">Edad:</label>
+                <input type="number" class="edad" min="1" max="90" required>
+                <br><br>
+                <select name="pais" id="pais" class="pais">
+                <option value="pais" selected>País</option>    
+                <option value="Méxio">Mexico</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Otro">Otro</option>
+                </select>
+                <h3>Cuidaremos tu informacion</h3>
+                <button class="guardar">Guardar</button>
+            </form>
+        </section>
+       <p class="mensaje"></p>
+    </main>
+    <footer>Todos los derechos reservados <a href="https://github.com/BrayanBeltran-Dev/ExamenWeb4B">
+        Github: BrayanBeltran-Dev
+    </a></footer>
+    <script src="/JS/app.js"></script>
+</body>
+</html>
